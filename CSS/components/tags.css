@@ -1,0 +1,206 @@
+#tag_text{
+    height: 8.3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+:root{
+    --sport: rgb(251,171,214);
+    --culture: rgb(252,147,166);
+    --video_game: rgb(254,174,133);
+    --histoire: rgb(255,210,193);
+    --cinema: rgb(70,234,176);
+    --litterature: rgb(91,199,208);
+    --tech: rgb(195,254,241);
+    --musique: rgb(172,197,252);
+    --anime: rgb(194,231,255);
+    --art: rgb(238,248,255);
+    --transition: all 0.2s;
+}
+
+#sport{
+    border: 3px solid var(--sport);
+    color: var(--sport);
+    transition: var(--transition);
+}
+
+#sport:hover{
+    background-color: var(--sport);
+    transition: var(--transition);
+}
+
+
+
+#culture{
+    border: 3px solid var(--culture);
+    color: var(--culture);
+    transition: var(--transition);
+}
+
+#culture:hover{
+    background-color: var(--culture);
+    transition: var(--transition);
+}
+
+
+
+#video_game{
+    border: 3px solid var(--video_game);
+    color: var(--video_game);
+    transition: var(--transition);
+}
+
+#video_game:hover{
+    background-color: var(--video_game);
+    transition: var(--transition);
+}
+
+
+
+#histoire{
+    border: 3px solid var(--histoire);
+    color: var(--histoire);
+    transition: var(--transition);
+}
+
+#histoire:hover{
+    background-color: var(--histoire);
+    transition: var(--transition);
+}
+
+
+
+#cinema{
+    border: 3px solid var(--cinema);
+    color: var(--cinema);
+    transition: var(--transition);
+}
+
+#cinema:hover{
+    background-color: var(--cinema);
+    transition: var(--transition);
+}
+
+
+
+#litterature{
+    border: 3px solid var(--litterature);
+    color: var(--litterature);
+    transition: var(--transition);
+}
+
+#litterature:hover{
+    background-color: var(--litterature);
+    transition: var(--transition);
+}
+
+
+
+#tech{
+    border: 3px solid var(--tech);
+    color: var(--tech);
+    transition: var(--transition);
+}
+
+#tech:hover{
+    background-color: var(--tech);
+    transition: var(--transition);
+}
+
+
+
+#musique{
+    border: 3px solid var(--musique);
+    color: var(--musique);
+    transition: var(--transition);
+}
+
+#musique:hover{
+    background-color: var(--musique);
+    transition: var(--transition);
+}
+
+
+
+#anime{
+    border: 3px solid var(--anime);
+    color: var(--anime);
+    transition: var(--transition);
+}
+
+#anime:hover{
+    background-color: var(--anime);
+    transition: var(--transition);
+}
+
+
+
+#art{
+    border: 3px solid var(--art);
+    color: var(--art);
+    transition: var(--transition);
+}
+
+#art:hover{
+    background-color: var(--art);
+    transition: var(--transition);
+}
+
+
+
+#clear{
+    background-color: black;
+    color: whitesmoke;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid whitesmoke;
+    border-radius: 50px;
+    height: 10vh;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(1,1);
+    transition: 0.1s linear;
+}
+
+#clear:hover{
+    transform: scale(1.1,1.1);
+    transition: 0.1s linear;
+}
+
+.tag_choice{
+    width: 75%;
+    border-radius: 100px;
+    margin-bottom: 2vh;
+    height: 5.7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tag_choice:hover{
+    border: 3px solid black !important;
+    color: black !important;
+    transition: var(--transition);
+}
+
+@media(max-width : 810px){
+    #tag_text{
+        height: 7vh;
+    }
+    
+    .tag_choice{
+        height: 5vh;
+        width: 60%;
+    }
+
+    #clear{
+        height: 9vh;
+        width: 60%;
+    }
+}

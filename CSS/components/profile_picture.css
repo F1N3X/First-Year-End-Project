@@ -1,0 +1,45 @@
+.profile_picture img{
+    width: 100%;
+    height: 100%;
+    /* border-radius: 1000px; */
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile_picture{
+    border: 5px solid black;
+    width: 15vh;
+    height: 15vh;
+    border-radius: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mini_profile_picture{
+    border: 5px solid black;
+    width: 5vw;
+    height: 5vw;
+    border-radius: 1000px;
+    margin-right: 10px;
+}
+
+.mini_profile_picture img{
+    width: 100%;
+    height: 100%;
+    border-radius: 1000px;
+    object-fit: cover;
+}
+
+
+
+@media(max-width:810px){
+    .profile_picture{
+        width: 30vw;
+        height: 30vw;
+    }
+
+    .mini_profile_picture{
+        width: 12vw;
+        height: 12vw;
+    }
+}
